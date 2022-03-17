@@ -31,7 +31,7 @@ Minutes simple all you need to do to get the degree IS MULTIPLY BY 6 just follow
 
 Now there is a more technical way to do these . eg if you have something like 57 min or 49 mins [What i said about multiplying by 6 still holds] you could
 split you calculation of minutes to be (taken 57mins) 50 and check the degree of that in the miutes dictionary above the 7 minutes
-or whatever value you might have there can be gotten in minutes by multiplying the valu by 6 and adding to the deg of 50
+or whatever value you might have there can be gotten in minutes by multiplying the value by 6 and adding to the deg of 50
 Reason being, between to consecutive minutes e.g 9,10 [45,50] we have 5 values between them and since THE DEGREE BETWEEN TWO CONSECUTIVE
 NUMBER IS 30 DEG, the varying values i.e(45->46, 46->47, 47->48, 48->49, 49->50) would each represent 6 degrees
 Now you can see the technicallity right
@@ -68,8 +68,7 @@ CROSS MULTIPLY YOU GET (M(in minutes)*30)/60 WHICH GIVES THE DEGS MOVED BY THE S
 """
 
 
-def AngleBetweenLongAndShort(time_: str):
-    output: int
+def AngleBetweenLongAndShort(time_: str) -> int:
     time_ = time_.split(':')
     hour = time_[0]
     minute = time_[1]

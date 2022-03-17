@@ -2,7 +2,7 @@
 
 # O(n**2), omega(n**2)
 
-def sort_arr(arr:list)->list:
+def sort_arr(arr: list) -> list:
 
     n = len(arr)
 
@@ -22,15 +22,17 @@ def sort_arr(arr:list)->list:
 
     return arr
 
+
 def main():
 
-    unsorted = [5,7,3,1,6,4,2]
+    unsorted = [5, 7, 3, 1, 6, 4, 2]
 
     res = sort_arr(unsorted)
 
     print(res)
 
     return 0
+
 
 if __name__ == '__main__':
 
